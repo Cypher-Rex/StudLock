@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+#index-body{
+   background-image:url("../img/signin-image.jpg");
+   background-size:cover;
+   font-family: sans-serif;
+   margin: 0px;
+   position: absolute;
+    right: 50%;
+    top: 17%;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 40px;
+    height: 400px;
+    width: 300px;
+    background-color: whitesmoke;
+}
+#login-div{
+    background-color: cadetblue;
+    display: inline-block;
+    position: absolute;
+    left: 45%;
+    top: 17%;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 40px;
+   height: 400px;
+}
+.login-label{
+   font-size: 22px;
+   font-weight: bold;
+}
+.login-input{
+   height: 30px;
+   width:250px;
+   font-size: 25px;
+}
+.login-btn{
+   border: solid 0px;
+   background-color: #0076ff;
+   color: white;
+   font-size: 20px;
+   padding: 15px 25px;
+   margin:5px;
+   border-radius: 10px;
+   text-decoration: none;
+   width: 100px;
+   font-family: 'Merriweather', serif;
+}
+nav{
+   background-color: #2B4865;
+   padding: 10px;
+   height: 50px;
+   text-align: center;
+}
+#logo{
+   font-size: 30px;
+   color: white;
+   font-weight: bolder;
+   margin-left: 50px;
+   float: left;
+   text-align: center;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    float: right;
+      
+}
+li{
+    display: inline-block;
+    color:#ddd7d7;
+    font-size: 20px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+li:hover{
+    color: white;
+}
+#file-block{
+   display: inline-block;
+   box-shadow: 0px 0px 1px grey;
+   text-align: center;
+   padding: 10px;
+   margin: 10px;
+}
+#file-block img{
+   height: 100px;
+   width: 80px;
+}
+login-table{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+item{
+    font-family: 'Montserrat', serif;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Merriweather', serif; 
+    padding: 30px 0px;
+}
+
+td{
+    padding: 3px;
+    font-family: 'Montserrat', serif;
+}
+
+reg-form{
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+home-body{
+   background-image:linear-gradient(rgba(0, 0, 0, 0.62),rgba(0, 0, 0, 0.62)), url("../img/wallpapers.jpg");
+   background-size:cover;
+   font-family: sans-serif;
+   margin: 0px;
+}
+
+img-style{
+    width: 100px;
+    height: 100px;
+    display: table;
+}
